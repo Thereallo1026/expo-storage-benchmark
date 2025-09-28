@@ -141,7 +141,7 @@ export default function App() {
 
 					<ResultsCard results={results} />
 				</ScrollView>
-				<StatusBar style={Platform.OS === "ios" ? "dark" : "auto"} />
+				<StatusBar hidden={true} />
 			</SafeAreaView>
 		</SafeAreaProvider>
 	);
