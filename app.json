@@ -13,7 +13,9 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.thereallo.expostoragebenchmark",
+      "appleTeamId": "7XLCTPHQQ4"
     },
     "android": {
       "adaptiveIcon": {
@@ -21,10 +23,15 @@
         "backgroundColor": "#ffffff"
       },
       "edgeToEdgeEnabled": true,
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "package": "com.thereallo.expostoragebenchmark"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {},
+    "plugins": [
+      "expo-font"
+    ]
   }
 }
